@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     return;
   }
 
-  let svgCopyCode = '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 25 25"><path d="M18 6v-6h-18v18h6v6h18v-18h-6zm-12 10h-4v-14h14v4h-10v10zm16 6h-14v-14h14v14z"/></svg>';
-  let svgSuccessCode = '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 25 25"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>';
-  let svgFailCode = '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 25 25"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>';
+  let svgCopyCode = '<svg xmlns="https://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 25 25"><path d="M18 6v-6h-18v18h6v6h18v-18h-6zm-12 10h-4v-14h14v4h-10v10zm16 6h-14v-14h14v14z"/></svg>';
+  let svgSuccessCode = '<svg xmlns="https://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 25 25"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>';
+  let svgFailCode = '<svg xmlns="https://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 25 25"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>';
 
   function changeIcon(el, innerHtml) {
     el.innerHTML = innerHtml;
